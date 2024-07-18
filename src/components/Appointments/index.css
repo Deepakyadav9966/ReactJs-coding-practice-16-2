@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 5px;
+  padding: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px 20px 20px 0px;
+  margin: 0px;
+  color: #171f46;
+}
+.label {
+  display: block;
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+}
+.input-title {
+  display: block;
+  height: 30px;
+  width: 250px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.button {
+  display: block;
+  background-color: #8b5cf6;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  border-width: 0;
+  padding: 5px;
+  border-radius: 7px;
+  width: 40px;
+}
+.image {
+  height: 250px;
+  width: 300px;
+}
+.line {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.underLine-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+.stared-btn {
+  background-color: transparent;
+  padding: 2px;
+  border-radius: 10px;
+  width: 70px;
+  outline: none;
+  border-width: 1px;
+}
+.ul-Appointment {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sytled-btn {
+  background-color: #9796f0;
+  color: #ffffff;
+}
